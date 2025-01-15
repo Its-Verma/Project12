@@ -15,7 +15,6 @@ class Role extends Model
     // Define the fillable fields
     protected $fillable = [
         'name',
-        'description',
     ];
 
      //relationships with user table

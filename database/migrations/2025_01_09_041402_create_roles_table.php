@@ -14,7 +14,6 @@ return new class extends Migration
         Schema::create('roles', function (Blueprint $table) {
             $table->id();
             $table->string('name'); // Role name (e.g., Admin, Editor, User)
-            $table->text('permissions')->nullable(); // JSON or serialized permissions
             $table->timestamps();
         });
     }
